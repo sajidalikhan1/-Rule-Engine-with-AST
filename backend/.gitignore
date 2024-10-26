@@ -1,0 +1,25 @@
+
+---
+
+### `.gitignore` File
+
+In the project root, add a `.gitignore` file to exclude unnecessary or sensitive files from being pushed to the repository.
+
+```plaintext
+
+# Node modules
+node_modules/
+
+# Environment variables
+backend/.env
+
+# Log files
+*.log
+
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
